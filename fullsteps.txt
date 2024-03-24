@@ -1,0 +1,51 @@
+GitHub
+>> Git vs GitHub
+>> Central repository used for version control – Git
+>> GitHub chai platform ho that use Git
+
+(2024/02/05)
+What is staging area?
+Commit bhaneko save ho
+1.	folder cmd ma kholney
+2.	code .       -----------> vs code ma tyo folder khulxa
+3.	tyo bhitra euta .py file xa
+4.	open github in browser > click profile > your profile > repositories > new > give name to the repository > choose private or public > click create repository
+5.	vs code ko terminal ma janey aba > cmd prompt >
+6.	reate a new repository on the command line
+a.	git init ---------------- The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+b.	git status ---------- The git status command displays the state of the working directory and the staging area.
+c.	git add . ---------------- The git add command adds a change in the working directory to the staging area.
+d.	git status
+e.	git commit –m “message_you_want_to_write” -------------- git commit is used to create a snapshot of the staged changes along a timeline of a Git projects history.
+f.	1st choti matra garda hunxa
+i.	git config –global user.name “Dipshina”
+ii.	git config – global user.email “dipshinatamang@gmail.com”
+g.	git commit –m “message_you_want_to_write”
+h.	create mode aauxa tespaxi
+i.	git branch -M main
+j.	git remote add origin https://github.com/Dipshina/Pythonclass.git
+k.	git push -u origin main
+
+7.	…or push an existing repository from the command line
+a.	git remote add origin https://github.com/Dipshina/Pythonclass.git
+b.	git branch -M main
+c.	git push -u origin main
+8.	Add a ReadMe File
+9.	git pull origin main ------------ remote bata local ma tannu lai use hunxa
+10.	 Clone garney > Code ma click garney > url copy garera cmd ma > git clone ‘url’ paste garney
+11.	clone gareko folder ma gayera Naya branch create gareko > command: git branch (bugfix) 
+12.	git branch –a ------------ branch ko naam dekhauxa
+13.	git checkout bugfix
+14.	git branch –a
+15.	git status
+16.	git add .
+17.	git commit -m "bugfix//j message lekhda ni hunxa"
+18.	git push origin bugfix
+Code pull, push, branch create garna
+
+(2024/02/06)
+1.	SQL
+Cursor – tyo language ko query execute garxa
+
+Where vs Having-------------assignment study
+Add, Commit, Push
